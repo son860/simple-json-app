@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #000;
+  width: 100%;
+  height: 1009px auto;
+  background-color: #f1f2f4;
+}
+
+.responsive{
+  position: absolute;
+  left:50%;
+  right: 50%;
+}
+
+aside#lateral-admin{
+  position: absolute;
+  width: 60px;
+  height: 1008px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  z-index: 50;
+}
+
+div.menu-mobile{
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+div.trace-mobile-control{
+  position: absolute;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.trace{
+  width: 20px;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 5px;
+}
+
+div.detail{
+  width: 60px;
+  height: 60px;
+  background-color: #ffa500;
+}
+
+div.logo-footer{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #303030;
+  top: 1009px;
+}
+
+header#cabecalho{
+  position: relative;
+  float: right;
+  width: 100%;
+  height: 120px;
+  background: #fff;
+}
+
+div.header-part-01{
+  width: 100%;
+  height: 60px;
+  background-color: #303030;
+}
+
+div.header-part-02{
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+}
+
+section#conteudo{
+  width: 100%;
+  height: 1009px;
+}
+
+article#conteudo{
+  width: 1280px;
+  height: 949px;
+  margin-left: -610px;
+  margin-top: 120px;
+}
+
+div.busca{
+  position: relative;
+  float: left;
+  top: 30px;
+}
+
+input.buscar{
+  width: 287px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #fff;
+  padding-left: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+input.btn-filtrar {
+  width: 89.1px;
+  height: 34px;
+  border-radius: 4px;
+  background-color: #ffa500;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+table.data-content {
+  width: 1280px;
+  height: 100px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-top: 100px;
+}
+
+.data-content-title, .data-content-text{
+  padding-left: 20px;
+}
+
+a.btn-finalizar{
+  position: relative;
+  float: right;
+  border-radius: 4px;
+  background-color: rgba(48, 48, 48, 0.1);
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  text-transform: uppercase;
+  padding: 7px 15px 7px 15px;
+  margin-right: 15px;
+}
+
+/* TELA MENOR DESKTOP 960PX */
+@media (min-width:960px) and (min-device-width:960px) and (max-width: 1280px){
+
+      header#cabecalho{
+        position: relative;
+        float: right;
+        width: 100%;
+        height: 120px;
+        background: #fff;
+      }
+
+      div.header-part-01{
+        width: 100%;
+        height: 60px;
+        background-color: #303030;
+      }
+
+      div.header-part-02{
+        width: 100%;
+        height: 60px;
+        background-color: #fff;
+      }
+
+      section#conteudo{
+        width: 100%;
+        height: 1009px;
+      }
+
+      article#conteudo{
+        width: 860px;
+        height: 949px;
+        margin-left: -390px;
+        margin-top: 120px;
+
+      }
+
+      div.busca{
+        position: relative;
+        float: left;
+        top: 30px;
+      }
+
+      input.buscar{
+        width: 287px;
+        height: 38px;
+        border-radius: 4px;
+        background-color: #fff;
+        padding-left: 15px;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      input.btn-filtrar {
+        width: 89.1px;
+        height: 34px;
+        border-radius: 4px;
+        background-color: #ffa500;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      table.data-content {
+        width: 830px;
+        height: 100px;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        margin-top: 100px;
+      }
+
+      .data-content-title, .data-content-text{
+        padding-left: 20px;
+      }
+
+      a.btn-finalizar{
+        position: relative;
+        float: right;
+        border-radius: 4px;
+        background-color: rgba(48, 48, 48, 0.1);
+        text-decoration: none;
+        font-size: 14px;
+        color: #000;
+        text-transform: uppercase;
+        padding: 7px 15px 7px 15px;
+        margin-right: 15px;
+      }
+}
+
+/* TELA TABLET 630PX */
+@media (min-width:630px) and (min-device-width:630px) and (max-width: 959px){
+
+      header#cabecalho{
+        position: relative;
+        float: right;
+        width: 100%;
+        height: 120px;
+        background: #fff;
+      }
+
+      div.header-part-01{
+        width: 100%;
+        height: 60px;
+        background-color: #303030;
+      }
+
+      div.header-part-02{
+        width: 100%;
+        height: 60px;
+        background-color: #fff;
+      }
+
+      section#conteudo{
+        width: 100%;
+        height: 1009px;
+      }
+
+      article#conteudo{
+        width: 560px;
+        height: 949px;
+        margin-left: -250px;
+        margin-top: 120px;
+      }
+
+      div.busca{
+        position: relative;
+        float: left;
+        top: 30px;
+        margin-left: 20px;
+      }
+
+      input.buscar{
+        width: 287px;
+        height: 38px;
+        border-radius: 4px;
+        background-color: #fff;
+        padding-left: 15px;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      input.btn-filtrar {
+        width: 89.1px;
+        height: 34px;
+        border-radius: 4px;
+        background-color: #ffa500;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      table.data-content {
+        width: 520px;
+        height: 100px;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        margin-top: 100px;
+        margin-left: 20px;
+      }
+
+      .data-content-title, .data-content-text{
+        padding-left: 20px;
+      }
+
+      a.btn-finalizar{
+        position: relative;
+        float: right;
+        border-radius: 4px;
+        background-color: rgba(48, 48, 48, 0.1);
+        text-decoration: none;
+        font-size: 14px;
+        color: #000;
+        text-transform: uppercase;
+        padding: 7px 15px 7px 15px;
+        margin-right: 15px;
+      }
+}
+
+/* TELA TABLET 470PX */
+@media (min-width:470px) and (min-device-width:470px) and (max-width: 629px){
+
+      header#cabecalho{
+        position: relative;
+        float: right;
+        width: 100%;
+        height: 120px;
+        background: #fff;
+      }
+
+      div.header-part-01{
+        width: 100%;
+        height: 60px;
+        background-color: #303030;
+      }
+
+      div.header-part-02{
+        width: 100%;
+        height: 60px;
+        background-color: #fff;
+      }
+
+      section#conteudo{
+        width: 100%;
+        height: 1009px;
+      }
+
+      article#conteudo{
+        width: 420px;
+        height: 949px;
+        margin-left: -160px;
+        margin-top: 120px;
+      }
+
+      div.busca{
+        position: relative;
+        float: left;
+        top: 30px;
+        margin-left: 10px;
+      }
+
+      input.buscar{
+        width: 278px;
+        height: 38px;
+        border-radius: 4px;
+        background-color: #fff;
+        padding-left: 15px;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      input.btn-filtrar {
+        width: 89.1px;
+        height: 34px;
+        border-radius: 4px;
+        background-color: #ffa500;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      table.data-content {
+        width: 370px;
+        height: 100px;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        margin-top: 100px;
+        margin-left: 10px;
+      }
+
+      .data-content-title, .data-content-text{
+        padding-left: 20px;
+      }
+
+      a.btn-finalizar{
+        position: relative;
+        float: right;
+        border-radius: 4px;
+        background-color: rgba(48, 48, 48, 0.1);
+        text-decoration: none;
+        font-size: 14px;
+        color: #000;
+        text-transform: uppercase;
+        padding: 7px 15px 7px 15px;
+        margin-right: 15px;
+      }
+}
+
+/* TELA SMARTPHONE 320PX */
+@media (min-width:320px) and (min-device-width:320px) and (max-width: 469px){
+
+      header#cabecalho{
+        position: relative;
+        float: right;
+        width: 100%;
+        height: 120px;
+        background: #fff;
+      }
+
+      div.header-part-01{
+        width: 100%;
+        height: 60px;
+        background-color: #303030;
+      }
+
+      div.header-part-02{
+        width: 100%;
+        height: 60px;
+        background-color: #fff;
+      }
+
+      section#conteudo{
+        width: 100%;
+        height: 1009px;
+      }
+
+      article#conteudo{
+        width: 240px;
+        height: 949px;
+        margin-left: -90px;
+        margin-top: 120px;
+      }
+
+      div.busca{
+        position: relative;
+        float: left;
+        top: 30px;
+        margin-left: 10px;
+      }
+
+      input.buscar{
+        width: 130px;
+        height: 38px;
+        border-radius: 4px;
+        background-color: #fff;
+        padding-left: 15px;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      input.btn-filtrar {
+        width: 89.1px;
+        height: 34px;
+        border-radius: 4px;
+        background-color: #ffa500;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      table.data-content {
+        width: 220px;
+        height: 100px;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        margin-top: 100px;
+        margin-left: 10px;
+      }
+
+      .data-content-title, .data-content-text{
+        padding-left: 20px;
+      }
+
+      a.btn-finalizar{
+        position: relative;
+        float: right;
+        border-radius: 4px;
+        background-color: rgba(48, 48, 48, 0.1);
+        text-decoration: none;
+        font-size: 14px;
+        color: #000;
+        text-transform: uppercase;
+        padding: 7px 15px 7px 15px;
+        margin-right: 15px;
+      }
+}
